@@ -1,0 +1,11 @@
+# MATLAB autosave / editor backup files
+*.asv
+*.m~
+
+# MATLAB Simulink build artifacts
+slprj/
+codegen/
+
+# MATLAB workspace / clutter
+*.mat
+octave-workspace
