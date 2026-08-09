@@ -9,6 +9,7 @@ README that maps files to video timestamps.
 | Topic | Folder | What it covers |
 |---|---|---|
 | while loop | [`topics/while-loop`](topics/while-loop) | How `while` actually evaluates: check, run the whole body, check again. Zero-iteration case and the classic infinite-loop bug. |
+| arrays | [`topics/arrays`](topics/arrays) | 1D vectors through 2D matrices: 1-based indexing, `end`/colon slicing, growing an array, row/column indexing, `size`, and copy-by-value semantics. |
 
 More topics are added as new videos are published.
 
