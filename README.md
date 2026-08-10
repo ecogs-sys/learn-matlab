@@ -9,7 +9,8 @@ README that maps files to video timestamps.
 | Topic | Folder | What it covers |
 |---|---|---|
 | while loop | [`topics/while-loop`](topics/while-loop) | How `while` actually evaluates: check, run the whole body, check again. Zero-iteration case and the classic infinite-loop bug. |
-| arrays | [`topics/arrays`](topics/arrays) | 1D vectors through 2D matrices: 1-based indexing, `end`/colon slicing, growing an array, row/column indexing, `size`, and copy-by-value semantics. |
+| arrays, part 1 (vectors) | [`topics/arrays-1d`](topics/arrays-1d) | 1-based indexing, `end`, colon slicing with `start:step:stop`, building with `1:7`/`zeros`, growing and deleting, whole-vector math, `.*` vs `*`, `sum`/`mean`/`max`, and copy-by-value. |
+| arrays, part 2 (matrices) | [`topics/arrays-2d`](topics/arrays-2d) | Rows and columns: building with `;`, `size`, row-then-column indexing (and the silent wrong answer), sub-blocks, adding/deleting rows, transpose, and why `sum(M)` is one total per column. |
 
 More topics are added as new videos are published.
 
