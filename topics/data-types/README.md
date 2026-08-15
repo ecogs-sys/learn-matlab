@@ -11,10 +11,10 @@ what *kind* of thing is in each box?
 
 | File | What it shows | Video timestamp |
 |---|---|---|
-| `coffee_order_types.m` | The main example: the order from the variables video, with `class()` asked of every box. The three type names — `char`, `logical`, `double` — and the `ans` box MATLAB uses for an answer you didn't name. | TBD |
-| `coffee_order_quotes_bug.m` | **Meant to mislead, not to error.** The price goes up to 5 dollars and gets typed as `'5'`, with quote marks. The script runs perfectly and charges 53 dollars 80. Also shows where 53 comes from: `double('5')`. | TBD |
-| `str2double_fix.m` | The repair. `str2double` turns text back into a number, `num2str` goes the other way, and the habit that catches this class of bug every time. | TBD |
-| `logical_arithmetic.m` | The third type. `true` counts as 1 and `false` as 0, so a member discount is one line — and that is the same conversion rule that ruined the total, being useful for once. | TBD |
+| `coffee_order_types.m` | The main example: the order from the variables video, with `class()` asked of every box. The three type names — `char`, `logical`, `double` — and the `ans` box MATLAB uses for an answer you didn't name. | 1:03-2:12 |
+| `coffee_order_quotes_bug.m` | **Meant to mislead, not to error.** The price goes up to 5 dollars and gets typed as `'5'`, with quote marks. The script runs perfectly and charges 53 dollars 80. Also shows where 53 comes from: `double('5')`. | 2:12-3:24 |
+| `str2double_fix.m` | The repair. `str2double` turns text back into a number, `num2str` goes the other way, and the habit that catches this class of bug every time. | 3:24-3:58 |
+| `logical_arithmetic.m` | The third type. `true` counts as 1 and `false` as 0, so a member discount is one line — and that is the same conversion rule that ruined the total, being useful for once. | 3:58-4:36 |
 
 ## How to run
 
