@@ -9,6 +9,7 @@ README that maps files to video timestamps.
 | Topic | Folder | What it covers |
 |---|---|---|
 | variables | [`topics/variables`](topics/variables) | Start here. A variable is a box holding one value right now: `=` as an instruction that runs right to left, the Command Window and Workspace, case-sensitive names, and why a total you worked out earlier doesn't update when you change a price. |
+| data types | [`topics/data-types`](topics/data-types) | Every box holds one *kind* of value as well as one value: `char`, `logical`, `double`, and `class()` to ask which. Why `'5' + 0.80` is 53.80 instead of 5.80, with no error, and how `str2double` fixes it. |
 | while loop | [`topics/while-loop`](topics/while-loop) | How `while` actually evaluates: check, run the whole body, check again. Zero-iteration case and the classic infinite-loop bug. |
 | arrays, part 1 (vectors) | [`topics/arrays-1d`](topics/arrays-1d) | 1-based indexing, `end`, colon slicing with `start:step:stop`, building with `1:7`/`zeros`, growing and deleting, whole-vector math, `.*` vs `*`, `sum`/`mean`/`max`, and copy-by-value. |
 | arrays, part 2 (matrices) | [`topics/arrays-2d`](topics/arrays-2d) | Rows and columns: building with `;`, `size`, row-then-column indexing (and the silent wrong answer), sub-blocks, adding/deleting rows, transpose, and why `sum(M)` is one total per column. |
