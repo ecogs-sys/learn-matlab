@@ -13,6 +13,8 @@ README that maps files to video timestamps.
 | while loop | [`topics/while-loop`](topics/while-loop) | How `while` actually evaluates: check, run the whole body, check again. Zero-iteration case and the classic infinite-loop bug. |
 | arrays, part 1 (vectors) | [`topics/arrays-1d`](topics/arrays-1d) | 1-based indexing, `end`, colon slicing with `start:step:stop`, building with `1:7`/`zeros`, growing and deleting, whole-vector math, `.*` vs `*`, `sum`/`mean`/`max`, and copy-by-value. |
 | arrays, part 2 (matrices) | [`topics/arrays-2d`](topics/arrays-2d) | Rows and columns: building with `;`, `size`, row-then-column indexing (and the silent wrong answer), sub-blocks, adding/deleting rows, transpose, and why `sum(M)` is one total per column. |
+| functions | [`topics/functions`](topics/functions) | Writing your own function in its own file: inputs are **copied** in, so changing one inside never touches the caller's variable, and anything created inside is gone when it ends. Capturing the output, losing it to `ans`, and what silently happens when you ask for one output out of two. |
+| logical operators | [`topics/logical-operators`](topics/logical-operators) | `&&` and `\|\|` stop the instant the answer is settled, which is the only reason a guard condition guards anything. `&` and `\|` make no such promise, so a safety check written with a single ampersand still crashes on the exact input it was there to catch. Plus `~`, and why order matters. |
 
 More topics are added as new videos are published.
 
