@@ -16,6 +16,7 @@ README that maps files to video timestamps.
 | functions | [`topics/functions`](topics/functions) | Writing your own function in its own file: inputs are **copied** in, so changing one inside never touches the caller's variable, and anything created inside is gone when it ends. Capturing the output, losing it to `ans`, and what silently happens when you ask for one output out of two. |
 | logical operators | [`topics/logical-operators`](topics/logical-operators) | `&&` and `\|\|` stop the instant the answer is settled, which is the only reason a guard condition guards anything. `&` and `\|` make no such promise, so a safety check written with a single ampersand still crashes on the exact input it was there to catch. Plus `~`, and why order matters. |
 | for loop | [`topics/for-loop`](topics/for-loop) | A `for` loop doesn't count — it walks a row of values, so `for price = cart` reads the prices themselves and no index can be written wrong. Plus the catch: the loop variable is a **copy**, not a window, so applying a discount through it runs clean and changes nothing. |
+| images | [`topics/images`](topics/images) | An image is a **matrix of numbers** — 0 black, 255 white — so `gray + 40` brightens it, `255 - gray` inverts it, and a crop is a block slice. Plus the two silent traps: `uint8` arithmetic saturates at 255 instead of wrapping, and `double(img)` followed by `imshow` gives you a white rectangle with no error at all. |
 
 More topics are added as new videos are published.
 
